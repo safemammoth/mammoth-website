@@ -9,7 +9,7 @@ function AboutSection(){
                 What is SafeMammoth?
             </h2>
             <p>
-            SafeMammoth is a deflationary cryptocurrency, running on BEP20 network (atleast for now), Every time a transaction happens, 4% of that transaction is burned and redistributed to every MAMMOTH (SafeMammoth HODLers). This increases the scarcity of $SMMTH in ciculation. What this mean is that everytime $SMMTH is	 used, the price of $SMMTH will continue to rise as the number of circulating token is drastically decreasing. 
+            SafeMammoth is a deflationary cryptocurrency, running on BEP20 network (atleast for now), Every time a transaction happens, 4% of that transaction is burned and redistributed to every MAMMOTH (SafeMammoth HODLers). This increases the scarcity of $MMTH in ciculation. What this mean is that everytime $MMTH is	 used, the price of $MMTH will continue to rise as the number of circulating token is drastically decreasing. 
             </p>
             <br></br>
             <p>
@@ -17,11 +17,12 @@ function AboutSection(){
             </p>
             <br></br>
             <p>
-            We will try to bring you to the moon and engage with all those token who've already reached it!
+            We will try to bring you to the moon and engage with all those token that have already reached it!
             </p>
             <br></br>
             <p>
             Join our community now and be part of this new MOONSHOT exploration!!
+            Pre-sale is now live!! go to Links part of our webpage below for the DXSale link
             </p>
         </div>
     )

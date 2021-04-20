@@ -23,9 +23,15 @@
 
 @media (max-width: 960px) {
   .allocation-section {
-    height: 2150px;
+    height: 1550px;
   }
   .allocations {
     flex-direction: column;
+  }
+  .allocation-section > h2 {
+    font-size: 24pt;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }

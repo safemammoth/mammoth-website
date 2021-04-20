@@ -8,7 +8,7 @@ function Footer(){
         <div className="footer-container">
                 <NavbarContainer>
                         <NavLogo to="/">
-                            <StaticImage src="../../images/website-logo.png"/>
+                            <StaticImage className="footer-logo" src="../../images/website-logo.png"/>
                         </NavLogo>
                         <NavMenu >
                             <NavItem>

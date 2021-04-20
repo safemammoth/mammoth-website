@@ -43,7 +43,7 @@ const Navbar = () => {
                                 <NavLinks to="/">ROADMAP</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/">SOCIAL</NavLinks>
+                                <NavLinks to="/">LINKS</NavLinks>
                             </NavItem>
                         </NavMenu>
                     </NavbarContainer>

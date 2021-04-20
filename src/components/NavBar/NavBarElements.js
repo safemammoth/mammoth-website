@@ -35,6 +35,13 @@ display:flex;
 align-items:left;
  height:80px;
  width:450px;
+
+ @media screen and (max-width:1060px){
+    transition: all 0.2s ease;
+    align-self:center;
+    height:40px;
+    width:225px;
+ }
 `
 
 export const MobileIcon = styled.div`

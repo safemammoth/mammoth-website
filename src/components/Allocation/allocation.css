@@ -28,3 +28,30 @@
   margin-left: 35px;
   margin-right: 35px;
 }
+
+@media (max-width: 960px) {
+  .allocation-container {
+    width: 280px;
+    height: 280px;
+  }
+
+  .allocation-container > h2 {
+    font-family: Sansita-Medium;
+    font-size: 22pt;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .allocation-container > p {
+    font-family: Sansita-Regular;
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}

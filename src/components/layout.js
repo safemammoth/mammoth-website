@@ -13,6 +13,7 @@ import ConceptSection from "./Concepts/ConceptSection"
 import AllocationSection from "./Allocation/AllocationSection"
 import Footer from "./Footer/Footer"
 import RoadMap from "./Roadmap/RoadMap"
+import SocialSection from "./Social/SocialSection"
 
 const Layout = ({ children }) => {
 
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
     <ConceptSection title="Key Token Concepts"/>
     <AllocationSection title="Token Allocation"/>
      <RoadMap title="Project Roadmap Coming Soon..."/>
+     <SocialSection title="Links"/>
     <Footer/>
     </>
   )

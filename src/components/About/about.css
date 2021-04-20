@@ -29,3 +29,21 @@
   margin-left: 100px;
   margin-right: 100px;
 }
+
+@media (max-width: 960px) {
+  .about-container > h2 {
+    font-size: 24pt;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  .about-container > p {
+    font-family: Sansita-Regular;
+    font-size: 12pt;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

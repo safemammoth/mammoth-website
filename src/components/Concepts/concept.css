@@ -25,3 +25,25 @@
   margin-left: 35px;
   margin-right: 35px;
 }
+
+@media (max-width: 960px) {
+  .concept-container {
+    width: 280px;
+    height: 280px;
+  }
+  .concept-container > h2 {
+    font-size: 18pt;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .concept-container > p {
+    font-size: 14pt;
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
