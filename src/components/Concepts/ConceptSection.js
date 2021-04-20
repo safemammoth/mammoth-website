@@ -1,6 +1,6 @@
 import React from 'react';
 import Concept from './Concept';
-import "./ConceptSection.css"
+import "./conceptsection.css"
 
 function ConceptSection({title}){
     return(

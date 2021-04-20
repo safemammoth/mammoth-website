@@ -1,7 +1,5 @@
 
 import React,{useState,useEffect} from 'react'
-import {FaBars,FaTimes} from "react-icons/fa"
-import {IconContext} from "react-icons"
 import { StaticImage } from "gatsby-plugin-image"
 import {Nav,NavbarContainer,NavLogo,NavMenu,NavItem,NavLinks} from "./NavBarElements"
 
@@ -26,7 +24,6 @@ const Navbar = () => {
 
     return(
         <>
-            <IconContext.Provider>
                 <Nav active={scroll} click={click}>
                     <NavbarContainer>
                         <NavLogo to="/">
@@ -51,7 +48,6 @@ const Navbar = () => {
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>
-            </IconContext.Provider>
          </>
     )
 }

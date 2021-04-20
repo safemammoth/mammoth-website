@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import {DiScala} from "react-icons/Di"
 import {Link} from "gatsby"
 
 export const Nav = styled.nav`
@@ -36,10 +35,6 @@ display:flex;
 align-items:left;
  height:80px;
  width:450px;
-`
-
-export const NavIcon = styled(DiScala)`
-margin: 0 0.5rem 0 2rem;
 `
 
 export const MobileIcon = styled.div`

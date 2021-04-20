@@ -1,6 +1,6 @@
 import React from 'react';
 import Allocation from './Allocation';
-import "./allocationSection.css"
+import "./allocationsection.css"
 
 function AllocationSection({title}){
     return(
