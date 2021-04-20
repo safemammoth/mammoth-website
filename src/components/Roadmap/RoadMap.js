@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React from 'react'
+import "./roadmap.css"
 
 
 function RoadMap({title}){
@@ -9,5 +9,4 @@ function RoadMap({title}){
         </div>
     )
 }
-
 export default RoadMap

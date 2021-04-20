@@ -3,7 +3,7 @@ import React,{useState,useEffect} from 'react'
 import {FaBars,FaTimes} from "react-icons/fa"
 import {IconContext} from "react-icons"
 import { StaticImage } from "gatsby-plugin-image"
-import {Nav,NavbarContainer,NavLogo,MobileIcon,NavMenu,NavItem,NavLinks} from "./NavBarElements"
+import {Nav,NavbarContainer,NavLogo,NavMenu,NavItem,NavLinks} from "./NavBarElements"
 
 const Navbar = () => {
     const [click,setClick] = useState(false)
@@ -30,11 +30,11 @@ const Navbar = () => {
                 <Nav active={scroll} click={click}>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            <StaticImage src="../images/website-logo.png"/>
+                            <StaticImage src="../../images/website-logo.png"/>
                         </NavLogo>
-                        <MobileIcon onClick={handleClick}>
+                        {/* <MobileIcon onClick={handleClick}>
                             {click?<FaTimes/>:<FaBars/>}
-                        </MobileIcon>
+                        </MobileIcon> */}
                         <NavMenu onClick={handleClick} click={click}>
                             <NavItem>
                                 <NavLinks to="/">ABOUT</NavLinks>

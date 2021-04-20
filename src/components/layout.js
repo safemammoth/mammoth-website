@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
     <AboutSection/>
     <ConceptSection title="Key Token Concepts"/>
     <AllocationSection title="Token Allocation"/>
-    <RoadMap title="Project Roadmap"/>
+     <RoadMap title="Project Roadmap Coming Soon..."/>
     <Footer/>
     </>
   )
