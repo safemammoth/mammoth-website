@@ -1,0 +1,27 @@
+.announcement-container {
+  background-color: rgb(147, 206, 244);
+  border-radius: 1%;
+}
+
+.announcement-title {
+  font-family: Sansita-Medium;
+  font-size: 22pt;
+  color: black;
+  margin: 20px;
+}
+
+.announcement-content {
+  font-family: Sansita-Regular;
+  font-size: 20pt;
+  color: black;
+  margin: 20px;
+}
+
+@media (max-width: 960px) {
+  .announcement-title {
+    font-size: 18pt;
+  }
+  .announcement-content {
+    font-size: 14pt;
+  }
+}

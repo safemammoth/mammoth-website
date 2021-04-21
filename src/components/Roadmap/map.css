@@ -1,0 +1,55 @@
+.map-container {
+  background-color: rgb(0, 78, 128);
+  color: white;
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin: 24px;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.map-title {
+  font-family: Sansita-Medium;
+  font-size: 16pt;
+  text-align: center;
+  align-self: baseline;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.active {
+  size: 20px;
+  align-self: baseline;
+}
+
+.map-content-container {
+  margin: 10px;
+  align-self: baseline;
+}
+
+.map-content {
+  font-family: Sansita-Medium;
+  font-size: 14pt;
+  margin: 5px;
+  margin-left: 50px;
+  align-self: baseline;
+}
+
+@media (max-width: 960px) {
+  .map-container {
+    width: 300px;
+    height: 400px;
+  }
+  .map-title {
+    font-size: 10pt;
+  }
+  .map-content {
+    font-size: 11pt;
+    margin-left: 20px;
+  }
+}

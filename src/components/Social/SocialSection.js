@@ -12,8 +12,8 @@ function SocialSection({title}){
         <Link className="links" to="https://t.me/safemammoth">Telegram</Link>
         <Link className="links" to="https://twitter.com/SafeMammoth">Twitter</Link>
         <Link className="links" to="https://safemammoth.medium.com/beginning-of-safe-mammoth-16d0c45de6e8">Medium</Link>
-        <Link className="links" to="">Liquidity Lock</Link>
-        <Link className="links" to="">DXSale</Link>
+        {/* <Link className="links" to="">Liquidity Lock</Link> */}
+        <Link className="links" to="https://dxsale.app/app/pages/defipresale?saleID=1379&chain=BSC">DXSale</Link>
         </div>
         </div>
         </>
